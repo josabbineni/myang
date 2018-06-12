@@ -18,18 +18,19 @@ Technologies
 * Angular5
 ...
 Deploy
+
 # Build the spring project
 student-rest/mvn package
 # Build the angular project
-student-app/npm install
-student-app/ng build --prod
+* student-app/npm install
+* student-app/ng build --prod
 
 
-# for building and running
+# Run in container
 docker-compose up
 
 ...
-Test
+# Test
 http://localhost or http://0.0.0.0 or http://docker_machine_ip
 
 docker-machine ip on windows /mac gives ip
