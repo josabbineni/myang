@@ -27,7 +27,7 @@ student-rest/mvn package
 
 
 # Run in container
-docker-compose up
+docker-compose up --build
 
 ...
 # Test
