@@ -1,4 +1,4 @@
-# myang
+# Student Demo 
 Demo Project for SpringBoot Angular Docker showing CRUD on Student details
 
 Student Spring Angular
@@ -16,8 +16,8 @@ Technologies
 * Docker
 * Docker Compose
 * Angular5
-...
-Deploy
+
+# Deploy
 
 # Build the spring project
 student-rest/mvn package
