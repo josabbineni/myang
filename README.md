@@ -6,15 +6,16 @@ A demo of my Spring boot + Angular + Postgresql
 
 Prerequisites
 JDK8 , Node/NPM,
+
 Technologies
-Spring Boot
-Maven
-Spring Data JPA
-PostgreSQL (Production, Development)
-H2 Database Engine (Test)
-Docker
-Docker Compose
-Angular5
+* Spring Boot
+* Maven
+* Spring Data JPA
+* PostgreSQL (Production, Development)
+* H2 Database Engine (Test)
+* Docker
+* Docker Compose
+* Angular5
 ...
 Deploy
 # Build the spring project
@@ -23,6 +24,12 @@ student-rest/mvn package
 student-app/npm install
 student-app/ng build --prod
 
-# or just use docker-compose
+
 # for building and running
 docker-compose up
+
+...
+Test
+http://localhost or http://0.0.0.0 or http://docker_machine_ip
+
+docker-machine ip on windows /mac gives ip
