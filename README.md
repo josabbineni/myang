@@ -1,10 +1,10 @@
 # myang
 Demo Project for SpringBoot Angular Docker showing CRUD on Student details
 
-TODO Spring Angular
+Student Spring Angular
 A demo of my Spring boot + Angular + Postgresql
 
-Prerequisites
+Prerequisites on development instance
 JDK8 , Node/NPM,
 
 Technologies
@@ -29,7 +29,6 @@ student-rest/mvn package
 # Run in container
 docker-compose up --build
 
-...
 # Test
 http://localhost or http://0.0.0.0 or http://docker_machine_ip
 
