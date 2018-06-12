@@ -1,0 +1,16 @@
+
+    
+    <table border = 1> 
+      <tr><th>Student Name</th> <th>Student Email</th></tr>
+      
+        <tr *ngFor="let student of students">
+          <td><a  [routerLink]="['/student-edit', student.id]">{{student.name}}</a>
+      </td>
+      <td>{{student.email}}</td>
+      </tr>
+
+  
+</table>
+<button  color="primary" [routerLink]="['/student-add']">Add New Student</button>
+
+

@@ -1,0 +1,20 @@
+version: '2'
+services:
+  student-app:
+    build: student-app/.
+    ports:
+      - "80:80"
+    depends_on:
+      - student-rest
+  student-rest:
+    build: student-rest/.
+    ports:
+      - "8080:8080"
+    depends_on:
+      - student-db
+  student-db:
+    image: postgres:9.4.5
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: student
